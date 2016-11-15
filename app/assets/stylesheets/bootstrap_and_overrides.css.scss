@@ -1,3 +1,7 @@
 // Any custom CSS or overrides should be declared above the Bootstrap imports.
+$navbar-default-bg: #4484CE;
+$navbar-default-link-color: #FFF;
+$navbar-default-link-hover-color: #D9D9D9;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
