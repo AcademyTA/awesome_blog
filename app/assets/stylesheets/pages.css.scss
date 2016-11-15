@@ -1,0 +1,31 @@
+.jumbotron {
+  background-image: asset-url('pages_home_jumbotron.jpg');
+  background-size: cover;
+  height: 550px;
+
+  h1 {
+    color: #FFF;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+  }
+}
+
+footer {
+  margin-top: 15px;
+  padding-top: 5px;
+  border-top: 1px solid #EAEAEA;
+  color: #777;
+
+  a:hover {
+    color: #222
+  }
+
+  small {
+    float: left;
+  }
+
+  nav {
+    float: right;
+  }
+}
