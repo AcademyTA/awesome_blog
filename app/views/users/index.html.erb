@@ -1,6 +1,12 @@
-<h1 align='center'>All Awesome Bloggers</h1>
+<div class='row'>
+  <div class='col-md-4 col-md-offset-4 text-center'>
+    <h1 align='center'>All Awesome Bloggers</h1>
+  </div>
+</div>
 
 <div class='text-center'>
+  <%= will_paginate %>
+
   <% @users.each do |user| %>
     <ul class='article_gravatar'>
       <div class='row'>
@@ -20,4 +26,6 @@
       </div>
     </ul>
   <% end %>
+
+  <%= will_paginate %>
 </div>
