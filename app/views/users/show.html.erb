@@ -8,7 +8,13 @@
   </div>
 </div>
 
-<h4 align='center'><%= @user.username %>'s articles</h4>
+<h4 align='center'>
+  <% if @user_articles.any? %>
+    <%= @user.username %>'s articles
+  <% else %>
+    <%= @user.username %> does not have any Articles
+  <% end %>
+</h4>
 
 <div class='text-center'>
   <%= will_paginate @user_articles %>
