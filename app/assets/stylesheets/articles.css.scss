@@ -31,3 +31,16 @@
   list-style: none;
   padding-left: 0;
 }
+
+.badge {
+  a {
+    color: white;
+    font-weight: normal
+  }
+
+  a:hover {
+    color: #CA5E29;
+    font-weight: normal;
+    text-decoration: none;
+  }
+}
